@@ -33,6 +33,8 @@ con lo mínimo que necesitás para ver algo en pantalla.
 | 12 | context               | Context API, `createContext`, `useContext`   | Vite        | ✅      |
 | 13 | custom-hooks          | Extraer lógica reusable en hooks propios    | Vite        | ✅      |
 | 14 | react-router          | SPA, `BrowserRouter`, `useParams`           | Vite        | ✅      |
+| 15 | hooks-avanzados       | `useReducer`, `useCallback`, `useMemo`, `useId`, `useTransition`, `useDeferredValue` | Vite | ✅ |
+| 16 | api-conexion          | Fetch API, CRUD, loading/error states, AbortController, variables de entorno | Vite | ✅ |
 
 ## Cómo usar este curso
 
@@ -63,7 +65,7 @@ N-concepto/
 └── vite.config.js
 ```
 
-**Proyectos 04-14 (Vite scaffold + 🎯 proyecto solo):**
+**Proyectos 04-16 (Vite scaffold + 🎯 proyecto solo):**
 ```
 N-concepto/
 ├── README.md          ← LEÉ ESTO PRIMERO
@@ -73,7 +75,8 @@ N-concepto/
 │                       - 🎯 Proyecto para hacer solo
 ├── src/
 │   ├── main.jsx       ← Código con comentarios didácticos
-│   └── hooks/         ← Solo en proyecto 13 (custom hooks)
+│   └── hooks/         ← Proyectos 13 (custom hooks) y 16 (useApi)
+├── .env               ← Solo proyecto 16 (variables de entorno)
 ├── index.html
 ├── package.json
 └── vite.config.js
@@ -96,3 +99,13 @@ Esa es la única forma de aprender de verdad.
 - Navegador moderno (Chrome, Firefox, Edge)
 - Editor de código (VS Code recomendado)
 - Ganas de **entender**, no de copiar
+
+---
+
+## 📋 Nota sobre el propósito del curso
+
+Este curso está diseñado exclusivamente para aquellos estudiantes que deseen **adquirir competencia en desarrollo React** con el objetivo de **mejorar su perfil profesional**. No constituye una obligación académica, no tiene fecha de entrega ni vencimiento, y su ritmo de avance es determinado únicamente por cada estudiante en función de su disponibilidad y dedicación.
+
+El material se encuentra estructurado de forma progresiva y acumulativa: cada proyecto introduce un concepto nuevo y presupone el dominio de los conceptos anteriores. Se recomienda completar los proyectos en orden secuencial y realizar los ejercicios prácticos propuestos (🎯 Proyecto para hacer solo) antes de avanzar al siguiente módulo.
+
+La meta no es "terminar el curso", sino **desarrollar la capacidad de construir aplicaciones React de forma autónoma**, comprendiendo los fundamentos y las decisiones de diseño detrás de cada herramienta.
