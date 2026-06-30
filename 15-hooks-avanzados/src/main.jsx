@@ -23,7 +23,7 @@ import {
 // =============================================================
 // 1. useReducer — Estado complejo con acciones
 // =============================================================
-// PROBLEMA: useState se vuelve un quilombo cuando tenés
+// PROBLEMA: useState se vuelve difícil de mantener cuando hay
 // múltiples campos que dependen entre sí, o acciones complejas
 // como "toggle", "reset", "bulkUpdate".
 //
